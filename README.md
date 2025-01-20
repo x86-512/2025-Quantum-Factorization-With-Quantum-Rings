@@ -1,10 +1,7 @@
 # Challenge: Crack the Code with Quantum Factorization
 
 Sponsored by
-<a href="https://www.quantumrings.com">
-  <img src="./images/quantum-rings-logo.png" alt="Quantum Rings" width="300>
-</a>
-
+![Quantum Rings](./images/quantum-rings-logo.png)
 
 ## Overview
 
@@ -71,6 +68,16 @@ A sample from the semiprime integer list (full list in [semiprimes.py](./semipri
 - **200 bits**: 1292650905825941096257239453478790385594125558306176183893071  
 
 As you go, you may want to start small, and scale up.  Keep in mind that simulation time may be a bottle neck, so getting a working implementation quickly for smaller numbers is key, so you can estimate the time it will take to run your algorithm on larger numbers.  Keep in mind that 80% of your score is going to be based on the largest integer you are able to factorize from the list.
+
+---
+
+## Free Access to Best-in-class Simulation
+1. Register for free at [www.QuantumRings.com](https://www.quantumrings.com)
+2. Confirm your email
+3. Select "Manage Keys" and enter Promocode "iQuHACK25" to unlock 200 qubits of simulation --> This will be available to you for an entire year following the hackathon
+4. Copy the key, and use it to start simulating massive circuits locally!
+
+If you need more capacity -- just ask!  We'll be happy to unlock even more qubits of simulation during the hackathon.  Just ask on the [#QuantumRings channel on Discord.](https://discord.gg/aC3hnRQ4)
 
 ---
 
