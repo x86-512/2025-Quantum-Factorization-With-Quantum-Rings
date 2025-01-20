@@ -42,7 +42,7 @@ Submissions will be evaluated on:
 
 ## The Numbers You’ll Face
 
-A sample from the semiprime integer list (full list in `semiprimes.py`):
+A sample from the semiprime integer list (full list in [semiprimes.py](./semiprimes.py)):
 
 ### Beginner Level
 - **14 bits**: 11009  
