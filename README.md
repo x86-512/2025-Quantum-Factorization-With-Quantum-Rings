@@ -1,6 +1,10 @@
 # Challenge: Crack the Code with Quantum Factorization
 
-Sponsored by Quantum Rings
+Sponsored by
+<a href="https://www.quantumrings.com">
+  <img src="./images/quantum-rings-logo.png" alt="Quantum Rings" width="300>
+</a>
+
 
 ## Overview
 
