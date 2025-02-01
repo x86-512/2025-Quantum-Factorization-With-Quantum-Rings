@@ -31,10 +31,10 @@ Quantum algorithms like Shor’s show that this problem can be solved efficientl
 3. **Focus on Real Quantum Solutions**  
    Classical optimizations are off the table—this challenge is about harnessing the full power of quantum algorithms.
 
-4. **Demonstrate Universality**
+4. **Demonstrate Universality**  
    Your solution should be capable of factoring multiple numbers of at least the same bit size—not just the one specific integer on the list.
 
-5. **Document Your Approach**
+5. **Document Your Approach**  
    Clearly explain your algorithm, its scalability, and provide insights into any learnings or novel approaches applied.
 
 ---
@@ -82,7 +82,7 @@ Additionally, all participants will receive:
 3. Select "Manage Keys" and enter Promocode "IQUHACK25" to unlock 200 qubits of simulation --> This will be available to you for an entire year following the hackathon
 4. Copy the key, and use it to start simulating massive circuits locally!
 
-If you need more capacity -- just ask!  We'll be happy to unlock even more qubits of simulation during the hackathon.  Just ask on the [#QuantumRings channel on Discord.](https://discord.com/channels/1326009426141777950/1330328378301087804)
+If you need more capacity -- just ask!  We'll be happy to unlock even more qubits of simulation during the hackathon.  Just ask on the [#quantum-rings channel on discord.](https://discord.com/channels/1326009426141777950/1330328378301087804)
 
 ---
 
