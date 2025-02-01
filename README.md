@@ -2,7 +2,7 @@
 
 Sponsored by
 <a href="https://www.quantumrings.com">
-  <img src="./images/quantum-rings-logo.png" alt="Quantum Rings" width="300>
+  <img src="./images/quantum-rings-logo.png" alt="Quantum Rings" width="300">
 </a>
 
 
@@ -21,56 +21,61 @@ Quantum algorithms like Shor’s show that this problem can be solved efficientl
 
 ---
 
-## What You’ll Be Doing
+## What You’ll Be Doing (Requirements)
 
 1. **Factor Large Semiprime Integers**  
-   Use quantum algorithms to tackle a prepared list of semiprime integers, from approachable 14-bit numbers to a formidable 200-bit challenge.
+   Use quantum algorithms to tackle a prepared list of semiprime integers, from an approachable 8-bit number and growing to numbers beyond sizes that are yet known to have been factored using quantum algorithms.
 
 2. **Leverage the Quantum Rings Simulator**  
-   Use any quantum framework, but run all simulations on the Quantum Rings Simulator, delivering unmatched precision and scalability. (We recommend qiskit)
+   Use any quantum framework, but run all simulations on the Quantum Rings Simulator.  
+   
+   In the event that you need more compute on qBraid, or more qubits from Quantum Rings, reach out on the [Quantum Rings Discord Channel](https://discord.com/channels/1326009426141777950/1330328378301087804), with evidence that your approach has worked with smaller samples, and we can unlock more resources for you.
 
-3. **Focus on Pure Quantum Solutions**  
+3. **Focus on Real Quantum Solutions**  
   Classical optimizations are off the table—this challenge is about harnessing the full power of quantum algorithms.
+
+4. **Demonstrate Universality**
+  Your solution should be capable of factoring multiple numbers of at least the same bit size—not just the one specific integer on the list.
+
+5. **Document Your Approach**
+  Clearly explain your algorithm, its scalability, and provide insights into any learnings or novel approaches applied.
 
 ---
 
 ## Scoring Breakdown
 
-Submissions will be evaluated on:
+All submissions must meet the above requirements, and will be ranked by the bit size of the largest number factored.  
 
-- **Performance (80%)**: Size of the largest integer successfully factored from the provided list.
-- **Universality (10%)**: Adaptability to any integer, but must work on the semi0primes provided of varying sizes.
-- **Documentation (10%)**: Clear, concise, and insightful explanations of your approach.
+The largest bit size wins.
+
+In the event that there is a tie, the team with the fastest execution will win.
+
+Before selecting a winner, the source code, execution evidence, and documentation will be reviewed to ensure that the above requirements have been met.
 
 ---
 
 ## The Numbers You’ll Face
 
-A sample from the semiprime integer list (full list in [semiprimes.py](./semiprimes.py)):
+The semiprime integers provided are in a list located in the repository in [semiprimes.py](./semiprimes.py).  
 
-### Beginner Level
-- **14 bits**: 11009  
-- **16 bits**: 47053  
-- **18 bits**: 167659  
+As you go, you will want to start small, and scale up.  Keep in mind that simulation time may be a bottle neck, so getting a working implementation quickly for smaller numbers is key, so you can estimate the time it will take to run your algorithm on larger numbers.  
 
-### Intermediate Level
-- **20 bits**: 744647  
-- **24 bits**: 11426971  
-- **30 bits**: 857830637  
+---
+## What you'll Win
 
-### Advanced Level
-- **36 bits**: 52734393667  
-- **40 bits**: 862463409547  
-- **50 bits**: 696252032788709  
+In addition to the pride of winning the MIT iQuHack, members of the winning team will receive:
 
-### Insane Level
-- **60 bits**: 827414216976034907  
-- **80 bits**: 839063370715343025081359  
-- **100 bits**: 793334180624272295351382130129  
-- **120 bits**: 1153151809972770124185028131269906357  
-- **200 bits**: 1292650905825941096257239453478790385594125558306176183893071  
+🏆 **A copy of *Fundamentals of Quantum Computing: Theory and Practice*** by Quantum Rings' Co-founder and CTO, **Venkat Kasirajan**. (up to 5 team members)
 
-As you go, you may want to start small, and scale up.  Keep in mind that simulation time may be a bottle neck, so getting a working implementation quickly for smaller numbers is key, so you can estimate the time it will take to run your algorithm on larger numbers.  Keep in mind that 80% of your score is going to be based on the largest integer you are able to factorize from the list.
+- If the winning team is based in the U.S., each member will receive a signed copy with a personal note from Venkat. 
+- If the winning team is outside the U.S., each member will receive a copy of the textbook shipped directly from the publisher.
+
+[📖 Check out the book here.](https://www.google.com/books/edition/Fundamentals_of_Quantum_Computing/NVw0EAAAQBAJ?hl=en&gbpv=0)
+
+Additionally, all participants will receive:
+- Access to the Quantum Rings Simulator with 200 qubits for one year after the hackathon (non-commercial use).
+- Support from the Quantum Rings community and staff to assist with simulator-related questions during the event.
+- Hands-on experience with cutting-edge quantum computing challenges.
 
 ---
 
@@ -78,19 +83,12 @@ As you go, you may want to start small, and scale up.  Keep in mind that simulat
 
 Submit the following:
 
-1. **Code**: Provide your quantum implementation, ensuring compatibility with Quantum Rings' backend simulator via Git Hub. 
+1. **Code**: Provide your quantum implementation using Quantum Rings'  simulator via GitHub. 
 2. **Results**: Include the integers factored, their prime factors, the number of qubits used, the number of gate operations, and the execution times.
-3. **Documentation**: Explain your algorithm, scalability, and insights into any learnings or novelty in your approach.
+3. **Quantum Rings Email**: Include the email used to register at Quantum Rings-- this will be used to validate the circuit execution.
+4. **Documentation**: Explain your algorithm, scalability, and insights into any learnings or novelty in your approach.
 
----
-
-## What You’ll Get
-
-In addition to a chance to compete for the challenge prize, all participants will get:
-
-- Access to the Quantum Rings Simulator with 200 qubits for one year after the hackathon (non-commercial use).
-- Support from the Quantum Rings community and staff to assist with simulator-related questions during the event.
-- Hands-on experience with cutting-edge quantum computing challenges.
+When you are ready to submit, you can submit your circuit using this [Google Form](https://forms.gle/GHXMXuHz7Fby96ky7)
 
 ---
 
