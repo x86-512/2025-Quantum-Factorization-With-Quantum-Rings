@@ -1,10 +1,7 @@
 # Challenge: Crack the Code with Quantum Factorization
 
 Sponsored by
-<a href="https://www.quantumrings.com">
-  <img src="./images/quantum-rings-logo.png" alt="Quantum Rings" width="300">
-</a>
-
+![Quantum Rings](./images/quantum-rings-logo.png)
 
 ## Overview
 
@@ -76,6 +73,16 @@ Additionally, all participants will receive:
 - Access to the Quantum Rings Simulator with 200 qubits for one year after the hackathon (non-commercial use).
 - Support from the Quantum Rings community and staff to assist with simulator-related questions during the event.
 - Hands-on experience with cutting-edge quantum computing challenges.
+
+---
+
+## Free Access to Best-in-class Simulation
+1. Register for free at [www.QuantumRings.com](https://www.quantumrings.com)
+2. Confirm your email
+3. Select "Manage Keys" and enter Promocode "iQuHACK25" to unlock 200 qubits of simulation --> This will be available to you for an entire year following the hackathon
+4. Copy the key, and use it to start simulating massive circuits locally!
+
+If you need more capacity -- just ask!  We'll be happy to unlock even more qubits of simulation during the hackathon.  Just ask on the [#QuantumRings channel on Discord.](https://discord.gg/aC3hnRQ4)
 
 ---
 
